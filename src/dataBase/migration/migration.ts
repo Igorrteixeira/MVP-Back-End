@@ -1,5 +1,8 @@
 import { DataBase } from "../DataBase";
 
+const sales = require("./sales")
+const directory =  require("./directorys")
+const  units = require("./units")
 
 class Migrations extends DataBase {
 
@@ -21,8 +24,8 @@ class Migrations extends DataBase {
     }
     populateTable = async () => {
         await this.getConnection()
-        .from("") // db
-        .insert('') //data
+        .from('MVP_SALES') // db
+        .insert(sales) //data
     }
  
 }

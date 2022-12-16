@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./build/index.js",
     "dev": "tsnd --transpile-only --ignore-watch node_modules ./src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "migration": "ts-node-dev ./src/dataBase/migration/migration.ts"
   },
   "author": "Igor-Rodrigues",
   "license": "ISC",

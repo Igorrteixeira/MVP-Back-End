@@ -11,7 +11,7 @@ export enum ROLE {
       private name: string,
       private email: string,
       private password: string,
-      private role: ROLE,
+      private role: string,
       private unit?:string,
       private directory?:string,
     ) {}
