@@ -12,8 +12,8 @@ export enum ROLE {
       private email: string,
       private password: string,
       private role: string,
-      private unit?:string,
-      private directory?:string,
+      private unit?:number,
+      private directory?:number,
     ) {}
     getId() {
       return this.id;

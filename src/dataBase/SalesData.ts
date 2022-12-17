@@ -6,12 +6,25 @@ export class SalesDb extends DataBase {
 
     public static TABLE_SALES = "MVP_SALES"
 
-    getSalesDb = async ():Promise<OutputSalesDB[]> => {
+    getAllSalesDb = async ():Promise<OutputSalesDB[]> => {
        const response:OutputSalesDB[] = await this.getConnection()
         .from(SalesDb.TABLE_SALES)
         .select()
         return response
     }
+
+    getSalesDb = async (id:string | number):Promise<OutputSalesDB[]> => {
+        const response:OutputSalesDB[] = await this.getConnection()
+         .from(SalesDb.TABLE_SALES)
+         .select()
+         .where("sellerId",id)
+         .orWhere("unitId",id)
+         
+         return response
+     }
+
+
+
 
     createSaleDb = async () => {
         await this.getConnection()

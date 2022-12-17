@@ -3,8 +3,8 @@ export interface CreateDTO {
      email: string,
      password: string,
      role: string,
-     unitId?: string,
-     directoryId?: string,
+     unitId?: number,
+     directoryId?: number,
 }
 
 export interface LoginDTO {
@@ -19,6 +19,6 @@ export interface OutputSerDb {
      email: string,
      password: string,
      role: string,
-     unitId: string,
-     directoryId: string,
+     unitId: number,
+     directoryId: number,
 }

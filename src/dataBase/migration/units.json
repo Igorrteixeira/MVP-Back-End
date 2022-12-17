@@ -1,54 +1,54 @@
 [
     {
         "id":20510,
-        "unit_name":"Porto Alegre",
-        "lat_long":"-30.048750057541955, -51.228587422990806",
-        "derectory_id":30400
+        "unitName":"Porto Alegre",
+        "latLong":"-30.048750057541955, -51.228587422990806",
+        "directoryId":30400
     },
     {
-        "unit_name":"Florianopolis",
-        "lat_long":"-27.55393525017396, -48.49841515885026",
-        "derectory_id":30400
+        "unitName":"Florianopolis",
+        "latLong":"-27.55393525017396, -48.49841515885026",
+        "directoryId":30400
     },
     {
-        "unit_name":"Curitiba",
-        "lat_long":"-25.473704465731746, -49.24787198992874",
-        "derectory_id":30400
+        "unitName":"Curitiba",
+        "latLong":"-25.473704465731746, -49.24787198992874",
+        "directoryId":30400
     },
     {
-        "unit_name":"Sao Paulo",
-        "lat_long":"-23.544259437612844, -46.64370714029131",
-        "derectory_id":30401
+        "unitName":"Sao Paulo",
+        "latLong":"-23.544259437612844, -46.64370714029131",
+        "directoryId":30401
     },
     {
-        "unit_name":"Rio de Janeiro",
-        "lat_long":"-22.923447510604802, -43.23208495438858",
-        "derectory_id":30401
+        "unitName":"Rio de Janeiro",
+        "latLong":"-22.923447510604802, -43.23208495438858",
+        "directoryId":30401
     },
     {
-        "unit_name":"Belo Horizonte",
-        "lat_long":"-19.917854829716372, -43.94089385954766",
-        "derectory_id":30401
+        "unitName":"Belo Horizonte",
+        "latLong":"-19.917854829716372, -43.94089385954766",
+        "directoryId":30401
     },
     {
-        "unit_name":"Vitória",
-        "lat_long":"-20.340992420772206, -40.38332271475097",
-        "derectory_id":30401
+        "unitName":"Vitória",
+        "latLong":"-20.340992420772206, -40.38332271475097",
+        "directoryId":30401
     },
     {
-        "unit_name":"Campo Grande",
-        "lat_long":"-20.462652006300377, -54.615658937666645",
-        "derectory_id":30402
+        "unitName":"Campo Grande",
+        "latLong":"-20.462652006300377, -54.615658937666645",
+        "directoryId":30402
     },
     {
-        "unit_name":"Goiania",
-        "lat_long":"-16.673126240814387, -49.25248826354209",
-        "derectory_id":30402
+        "unitName":"Goiania",
+        "latLong":"-16.673126240814387, -49.25248826354209",
+        "directoryId":30402
     },
     {
-        "unit_name":"Cuiaba",
-        "lat_long":"-15.601754458320842, -56.09832706558089",
-        "derectory_id":30402
+        "unitName":"Cuiaba",
+        "latLong":"-15.601754458320842, -56.09832706558089",
+        "directoryId":30402
     }
 
 ]

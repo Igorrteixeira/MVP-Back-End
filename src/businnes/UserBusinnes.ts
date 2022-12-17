@@ -1,7 +1,8 @@
+import { UnitsDB } from "../dataBase/UnitsData"
 import { UserDb } from "../dataBase/UserData"
 import { CustomError, ParametersError, TokenError } from "../error/CustomError"
 import { CreateDTO, LoginDTO } from "../interfaces/userDto"
-import { User } from "../models/UserModel"
+import { ROLE, User } from "../models/UserModel"
 import { Autheticator } from "../services/Authenticator"
 import { GenerateId } from "../services/GenerateId"
 import { HashManager } from "../services/HashManeger"
@@ -15,13 +16,14 @@ export class UserBusinnes {
     ) { }
 
     createBus = async (input: CreateDTO) => {
-        const { name, email, password, role, unitId, directoryId }
-            = input;
+        let { name, email, password, role, unitId, directoryId } = input;
         const validEmail = await this.userDb.getUserEmail(email)
+        const roleUpperCase = role.toUpperCase()
         if (!name || !email || !password || !role) {
             throw new ParametersError()
         }
-        if (validEmail) {
+        console.log(roleUpperCase)
+        if (validEmail.length > 0) {
             throw new CustomError(401, "Email ja foi registrado");
         }
         if (!email.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/)) {
@@ -30,10 +32,16 @@ export class UserBusinnes {
         if (password.length < 6) {
             throw new CustomError(401, "Digite senha com no minimo 6 digitos")
         }
-        // criar validação de unit e directory
+        if (roleUpperCase === ROLE.VENDEDOR && isNaN(unitId) || roleUpperCase === ROLE.GERENTE && isNaN(unitId)) {
+            throw new CustomError(422, "Digite sua unidade")
+        }
+        if (roleUpperCase === ROLE.DIRETOR && isNaN(directoryId)) {
+            throw new CustomError(422, "Digite sua diretoria")
+        }
+
         const newPasword = await this.hashManeger.hash(password);
         const id = this.generateId.generateId();
-        const newUser = new User(id, name, email, newPasword, role, unitId, directoryId)
+        const newUser = new User(id, name, email, newPasword, roleUpperCase, unitId, directoryId)
         await this.userDb.createUseDb(newUser)
         const response = this.autheticator.generateToken({ id, role });
         return response;
@@ -42,11 +50,11 @@ export class UserBusinnes {
     loginBus = async (input: LoginDTO) => {
         const { email, password } = input;
         const [validEmail] = await this.userDb.getUserEmail(email)
-    
+
         if (!email || !password) {
             throw new ParametersError();
         }
-        if (!validEmail ) {
+        if (!validEmail) {
             throw new CustomError(401, "Email inválido");
         }
         const validPassword = await this.hashManeger.compareHash(

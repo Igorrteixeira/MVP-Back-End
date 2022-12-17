@@ -13,7 +13,7 @@ const userController = new UserController(
         new UserDb(),
         new Autheticator(),
         new HashManager(),
-        new GenerateId()
+        new GenerateId(),
     )
 )
 

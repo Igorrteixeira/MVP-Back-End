@@ -19,6 +19,7 @@ export class UserDb extends DataBase {
             .from(UserDb.TABLE_USERS)
             .select()
             .where({ email })
+
         return result
     }
 
@@ -31,8 +32,8 @@ export class UserDb extends DataBase {
                 email: user.getEmail(),
                 password: user.getPassword(),
                 role: user.getRole(),
-                unit_id: user.getUnit(),
-                directory_id: user.getDirectory(),
+                unitId: user.getUnit(),
+                directoryId: user.getDirectory(),
             })
         return "Usuario criado com sucesso"
     }
