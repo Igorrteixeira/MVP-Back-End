@@ -19,4 +19,12 @@ export class UnitsDB extends DataBase {
         .orWhere("directoryId",id)
         return response
     }
+
+    getUnitByLatLongDb = async (latLong:string):Promise<OutputUnitsDB> => {
+        const [response]:OutputUnitsDB[] = await this.getConnection()
+        .from(UnitsDB.TABLE_UNITS)
+        .select()
+        .where({latLong})
+        return response
+    }
 }

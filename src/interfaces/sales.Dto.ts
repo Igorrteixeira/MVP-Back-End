@@ -1,18 +1,17 @@
 
 export interface CreateSalesDTO {
-    sellerId:string,
+    token:string
     timestamp:Date,
     amount:number,
     latLong:string,
-    unitId:number
 }
 
 export interface UpdateSalesDTO {
-    sellerId:string,
+    token:string
     timestamp?:Date,
     amount?:number,
     latLong?:string,
-    unitId?:number
+    userUnitId?:number
 }
 
 export interface DeleteSalesDTO {
@@ -22,9 +21,10 @@ export interface DeleteSalesDTO {
 
 export interface OutputSalesDB {
     id:string,
-    sellerId:string,
+    unitName:string,
     timestamp:Date,
     amount:number,
+    roaming:String,
     latLong:string,
-    unitId:number
+    directoryName:string
 }

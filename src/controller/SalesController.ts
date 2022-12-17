@@ -17,7 +17,12 @@ export class SalesControlles {
 
     createSale = async (req: Request, res: Response) => {
         try {
-            const input: CreateSalesDTO = req.body
+            const input: CreateSalesDTO = {
+                token: req.headers.authorization,
+                timestamp: req.body.timestamp,
+                latLong: req.body.latLong,
+                amount: req.body.amount,
+            }
             const response = await this.salesBus.createSaleBus(input)
             res.status(202).send({ response: response })
         } catch (error) {
@@ -27,7 +32,13 @@ export class SalesControlles {
 
     updateSale = async (req: Request, res: Response) => {
         try {
-            const input: UpdateSalesDTO = req.body
+            const input: UpdateSalesDTO = {
+                token: req.headers.authorization,
+                timestamp: req.body,
+                latLong: req.body,
+                amount: req.body,
+                userUnitId: req.body
+            }
             const response = await this.salesBus.updateSaleBus(input)
             res.status(202).send({ response: response })
         } catch (error) {

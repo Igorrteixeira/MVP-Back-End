@@ -20,3 +20,4 @@ const salesController = new SalesControlles(
 )
 
 salesRouter.get("",salesController.getSales)
+salesRouter.post("/create",salesController.createSale)
