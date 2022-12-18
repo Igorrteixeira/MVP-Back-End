@@ -22,3 +22,13 @@ export interface OutputSerDb {
      unitId: number,
      directoryId: number,
 }
+
+export interface OutputSallerDb {
+     id: string
+     name: string,
+     email: string,
+     unitId: number,
+     directoryId: number,
+}
+
+

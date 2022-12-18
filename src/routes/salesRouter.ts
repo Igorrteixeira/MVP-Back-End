@@ -19,5 +19,7 @@ const salesController = new SalesControlles(
     )
 )
 
-salesRouter.get("",salesController.getSales)
-salesRouter.post("/create",salesController.createSale)
+salesRouter.get("", salesController.getSales)
+salesRouter.post("/create", salesController.createSale)
+salesRouter.put("/update", salesController.updateSale)
+salesRouter.delete("/delete/:id", salesController.deleteSale)

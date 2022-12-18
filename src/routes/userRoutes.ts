@@ -16,6 +16,6 @@ const userController = new UserController(
         new GenerateId(),
     )
 )
-
+userRouter.get("/Sallers", userController.getSallers)
 userRouter.post("/create", userController.create)
 userRouter.post("/login", userController.login)

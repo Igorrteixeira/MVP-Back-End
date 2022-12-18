@@ -2,7 +2,7 @@
 interface SalesModel {
     id:string,
     sellerId:string,
-    timestamp:Date,
+    timestamp:string,
     amount:number,
     roaming:boolean,
     latLong:string ,

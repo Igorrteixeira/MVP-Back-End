@@ -1,12 +1,12 @@
-import { DirectoryDB } from "../dataBase/DirectoryData"
 import { SalesDb } from "../dataBase/SalesData"
 import { UnitsDB } from "../dataBase/UnitsData"
 import { UserDb } from "../dataBase/UserData"
 import { CustomError, IdError, ParametersError, TokenError } from "../error/CustomError"
-import { CreateSalesDTO, DeleteSalesDTO, UpdateSalesDTO } from "../interfaces/sales.Dto"
+import { CreateSalesDTO, DeleteSalesDTO, GetSalesDTO, UpdateSalesDTO } from "../interfaces/sales.Dto"
 import { Sales } from "../models/SalesModel"
 import { ROLE, User } from "../models/UserModel"
 import { Autheticator } from "../services/Authenticator"
+import { CorrectDate } from "../services/CorrectData"
 import { GenerateId } from "../services/GenerateId"
 
 export class SalesBusinnes {
@@ -18,8 +18,8 @@ export class SalesBusinnes {
         private unitsDb: UnitsDB,
     ) { }
 
-    getSalesBus = async (token: string) => {
-        const validToken = this.autheticator.getTokenData(token)
+    getSalesBus = async (input:GetSalesDTO) => {
+        const validToken = this.autheticator.getTokenData(input.token)
         const { role, id } = validToken
         const getUser = await this.userDb.getUserByIdDb(id)
         const user = new User(getUser)
@@ -27,17 +27,17 @@ export class SalesBusinnes {
         if (!validToken) throw new TokenError();
 
         if (role === ROLE.VENDEDOR) {
-            return await this.salesDb.getSalesDb(id)
+            return await this.salesDb.getSalesDb(id,input.order)
         }
         if (role === ROLE.GERENTE) {
-            return await this.salesDb.getSalesDb(user.getUnitId())
+            return await this.salesDb.getSalesDb(user.getUnitId(),input.order)
         }
         if (role === ROLE.DIRETOR) {
             console.log(user.getDirectoryId())
-            return await this.salesDb.getSalesDb(user.getDirectoryId())
+            return await this.salesDb.getSalesDb(user.getDirectoryId(),input.order)
         }
         if (role === ROLE.DIRETOR_GERAL) {
-            return await this.salesDb.getAllSalesDb()
+            return await this.salesDb.getAllSalesDb(input.order)
         }
     }
 
@@ -49,7 +49,7 @@ export class SalesBusinnes {
         const validUnit = await this.unitsDb.getUnitByLatLongDb(latLong)
         const getUser = await this.userDb.getUserByIdDb(validToken.id)
         const user = new User(getUser)
-
+        
         if (!validToken) throw new TokenError();
 
         if (!token || !timestamp || !amount || !latLong) throw new ParametersError();
@@ -59,11 +59,12 @@ export class SalesBusinnes {
         if (validUnit.id !== user.getUnitId()) roaming = true
 
         const id = this.genrateId.generateId()
-
+        const newDate = new CorrectDate().sendDateDB(String(timestamp))
+        console.log(newDate)
         const newSales = new Sales({
             id,
             sellerId: validToken.id,
-            timestamp,
+            timestamp:newDate,
             amount,
             roaming,
             latLong,
@@ -76,8 +77,7 @@ export class SalesBusinnes {
 
     updateSaleBus = async (input: UpdateSalesDTO) => {
         const validToken = this.autheticator.getTokenData(input.token)
-        const validSales = this.salesDb.getSalesByIdDb(Number(input.id))
-        console.log(validSales)
+        const validSales = this.salesDb.getSalesByIdDb(input.id)
         if (!validToken) throw new TokenError()
         if (!validSales) throw new IdError()
 
@@ -89,13 +89,16 @@ export class SalesBusinnes {
     deleteSaleBus = async (input: DeleteSalesDTO) => {
         const { token, salesId } = input
         const validToken = this.autheticator.getTokenData(token)
+        const validSales = await this.salesDb.getSalesByIdDb(salesId)
 
         if (!validToken) throw new TokenError()
         if (!salesId) throw new IdError()
-        if (validToken.role === ROLE.VENDEDOR) {
-            throw new CustomError(403, "Ususario não autorizado, somente gerente e diretor.")
+        if (validToken.role !== ROLE.GERENTE) {
+            throw new CustomError(403, "Somente gerente esta autorizado para esta ação.")
         }
-
+        if (!validSales) {
+            throw new CustomError(403, "Venda não encontrada")
+        }
         const response = await this.salesDb.deleteSaleDb(input.salesId)
         return response
     }

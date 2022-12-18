@@ -32,4 +32,11 @@ export class UnitsDB extends DataBase {
         .where({latLong})
         return response
     }
+
+    getAllUnitsDb = async ():Promise<OutputUnitsDB[]> => {
+        const response:OutputUnitsDB[] = await this.getConnection()
+        .from(UnitsDB.TABLE_UNITS)
+        .select()
+        return response
+    }
 }

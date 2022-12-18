@@ -1,4 +1,3 @@
-import { UnitsDB } from "../dataBase/UnitsData"
 import { UserDb } from "../dataBase/UserData"
 import { CustomError, ParametersError, TokenError } from "../error/CustomError"
 import { CreateDTO, LoginDTO } from "../interfaces/userDto"
@@ -14,6 +13,10 @@ export class UserBusinnes {
         private hashManeger: HashManager,
         private generateId: GenerateId,
     ) { }
+
+    getSallersBus = async () => {
+        return await this.userDb.getSallers()
+    }
 
     createBus = async (input: CreateDTO) => {
         let { name, email, password, role, unitId, directoryId } = input;
@@ -45,10 +48,11 @@ export class UserBusinnes {
             id,
             name,
             email,
-            password:newPasword,
-            role:roleUpperCase,
+            password: newPasword,
+            role: roleUpperCase,
             unitId,
-            directoryId})
+            directoryId
+        })
         await this.userDb.createUseDb(newUser)
         const response = this.autheticator.generateToken({ id, role });
         return response;

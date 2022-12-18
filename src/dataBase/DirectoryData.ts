@@ -8,11 +8,10 @@ interface OutputDirectoryDB {
 export class DirectoryDB extends DataBase {
     // constructor(parameters) {}
     public static TABLE_DIRECTORY = "MVP_DIRECTORY"
-    getDirectoryDb = async (id:number):Promise<OutputDirectoryDB> => {
-        const [response]:OutputDirectoryDB[] = await this.getConnection()
+    getDirectoryDb = async ():Promise<OutputDirectoryDB[]> => {
+        const response:OutputDirectoryDB[] = await this.getConnection()
         .from(DirectoryDB.TABLE_DIRECTORY)
         .select()
-        .where({id})
         return response
     }
 }
