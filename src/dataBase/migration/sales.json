@@ -5,7 +5,8 @@
         "timestamp":"2022-12-16 18:35",
         "amount":500,
         "latLong":"-16.673126240814387, -49.25248826354209",
-        "userUnitId":20510
+        "userUnitId":20510,
+        "directoryId":30400
     },
     {
         "id":"teFREGFERGERGst",
@@ -13,7 +14,9 @@
         "timestamp":"2022-12-16 18:35",
         "amount":9660,
         "latLong":"-16.673126240814387, -49.25248826354209",
-        "userUnitId":20516
+        "userUnitId":20516,
+        "directoryId":30401
+        
     },
     {
         "id":"ubedeDDDDDEDFded",
@@ -21,6 +24,7 @@
         "timestamp":"2022-12-16 18:35",
         "amount":66600,
         "latLong":"-16.673126240814387, -49.25248826354209",
-        "userUnitId":20519
+        "userUnitId":20519,
+        "directoryId":30402
     }
 ]

@@ -34,6 +34,7 @@ export class SalesControlles {
         try {
             const input: UpdateSalesDTO = {
                 token: req.headers.authorization,
+                id:req.body.id,
                 timestamp: req.body,
                 latLong: req.body,
                 amount: req.body,

@@ -7,6 +7,7 @@ interface SalesModel {
     roaming:boolean,
     latLong:string ,
     userUnitId:number,
+    directoryId:number
 }
 
 

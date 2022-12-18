@@ -16,4 +16,11 @@ export class CustomError extends Error {
       super(message);
     }
   }
+
+  export class IdError extends Error {
+    constructor(public code:number= 403, message:string = "Id inválido") {
+      super(message);
+    }
+  }
+  
   

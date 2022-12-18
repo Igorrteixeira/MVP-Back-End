@@ -26,15 +26,7 @@ export class UserDb extends DataBase {
     createUseDb = async (user: User) => {
         await this.getConnection()
             .from(UserDb.TABLE_USERS)
-            .insert({
-                id: user.getId(),
-                name: user.getName(),
-                email: user.getEmail(),
-                password: user.getPassword(),
-                role: user.getRole(),
-                unitId: user.getUnit(),
-                directoryId: user.getDirectory(),
-            })
+            .insert(user.getUser())
         return "Usuario criado com sucesso"
     }
 

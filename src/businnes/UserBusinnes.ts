@@ -41,7 +41,14 @@ export class UserBusinnes {
 
         const newPasword = await this.hashManeger.hash(password);
         const id = this.generateId.generateId();
-        const newUser = new User(id, name, email, newPasword, roleUpperCase, unitId, directoryId)
+        const newUser = new User({
+            id,
+            name,
+            email,
+            password:newPasword,
+            role:roleUpperCase,
+            unitId,
+            directoryId})
         await this.userDb.createUseDb(newUser)
         const response = this.autheticator.generateToken({ id, role });
         return response;
@@ -50,6 +57,7 @@ export class UserBusinnes {
     loginBus = async (input: LoginDTO) => {
         const { email, password } = input;
         const [validEmail] = await this.userDb.getUserEmail(email)
+        const user = new User(validEmail)
 
         if (!email || !password) {
             throw new ParametersError();
@@ -59,15 +67,15 @@ export class UserBusinnes {
         }
         const validPassword = await this.hashManeger.compareHash(
             password,
-            validEmail.password
+            user.getPassword()
         );
 
         if (!validPassword) {
             throw new CustomError(401, "Senha inválida");
         }
         const result = this.autheticator.generateToken({
-            id: validEmail.id,
-            role: validEmail.role,
+            id: user.getId(),
+            role: user.getRole(),
         });
         return result;
     };

@@ -4,43 +4,50 @@ export enum ROLE {
     GERENTE = 'GERENTE',
     VENDEDOR = 'VENDEDOR'
   }
+
+  export interface UserModel {
+    id:string
+    name: string,
+    email: string,
+    password: string,
+    role: string,
+    unitId?: number,
+    directoryId?: number,
+}
   
   export class User {
-    constructor(
-      private id: string,
-      private name: string,
-      private email: string,
-      private password: string,
-      private role: string,
-      private unit?:number,
-      private directory?:number,
-    ) {}
+    constructor(private user:UserModel) {}
+
+    getUser() {
+      return this.user;
+    }
+
     getId() {
-      return this.id;
+      return this.user.id;
     }
   
     getName() {
-      return this.name;
+      return this.user.name;
     }
   
     getEmail() {
-      return this.email;
+      return this.user.email;
     }
   
     getPassword() {
-      return this.password;
+      return this.user.password;
     }
   
     getRole() {
-      return this.role;
+      return this.user.role;
     }
 
-    getUnit() {
-      return this.unit;
+    getUnitId() {
+      return this.user.unitId;
     }
 
-    getDirectory() {
-      return this.directory;
+    getDirectoryId() {
+      return this.user.directoryId;
     }
   }
   

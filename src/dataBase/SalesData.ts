@@ -1,4 +1,4 @@
-import { OutputSalesDB } from "../interfaces/sales.Dto"
+import { OutputSalesByIdDB, OutputSalesDB, UpdateSalesDTO } from "../interfaces/sales.Dto"
 import { Sales } from "../models/SalesModel"
 import { DataBase } from "./DataBase"
 
@@ -52,11 +52,19 @@ export class SalesDb extends DataBase {
             .innerJoin("MVP_DIRECTORY", "MVP_DIRECTORY.id", "MVP_UNITS.directoryId")
             .where("sellerId", id)
             .orWhere("userUnitId", id)
-
+            .orWhere("MVP_SALES.directoryId", id)
         return response
     }
 
-    updateSaleDb = async () => {
+    getSalesByIdDb = async (id:number): Promise<OutputSalesByIdDB[]> => {
+        const response: OutputSalesByIdDB[] = await this.getConnection()
+            .from(SalesDb.TABLE_SALES)
+            .select()
+            .where({id})
+        return response
+    }
+
+    updateSaleDb = async (input:UpdateSalesDTO) => {
         await this.getConnection()
             .from(SalesDb.TABLE_SALES)
     }

@@ -2,10 +2,10 @@ import { DirectoryDB } from "../dataBase/DirectoryData"
 import { SalesDb } from "../dataBase/SalesData"
 import { UnitsDB } from "../dataBase/UnitsData"
 import { UserDb } from "../dataBase/UserData"
-import { CustomError, ParametersError, TokenError } from "../error/CustomError"
+import { CustomError, IdError, ParametersError, TokenError } from "../error/CustomError"
 import { CreateSalesDTO, DeleteSalesDTO, UpdateSalesDTO } from "../interfaces/sales.Dto"
 import { Sales } from "../models/SalesModel"
-import { ROLE } from "../models/UserModel"
+import { ROLE, User } from "../models/UserModel"
 import { Autheticator } from "../services/Authenticator"
 import { GenerateId } from "../services/GenerateId"
 
@@ -21,8 +21,8 @@ export class SalesBusinnes {
     getSalesBus = async (token: string) => {
         const validToken = this.autheticator.getTokenData(token)
         const { role, id } = validToken
-        const user = await this.userDb.getUserByIdDb(id)
-        const units = await this.unitsDb.getUnitDb(user.directoryId)
+        const getUser = await this.userDb.getUserByIdDb(id)
+        const user = new User(getUser)
 
         if (!validToken) throw new TokenError();
 
@@ -30,10 +30,11 @@ export class SalesBusinnes {
             return await this.salesDb.getSalesDb(id)
         }
         if (role === ROLE.GERENTE) {
-            return await this.salesDb.getSalesDb(user.unitId)
+            return await this.salesDb.getSalesDb(user.getUnitId())
         }
         if (role === ROLE.DIRETOR) {
-            return await this.salesDb.getSalesDb(units.id)
+            console.log(user.getDirectoryId())
+            return await this.salesDb.getSalesDb(user.getDirectoryId())
         }
         if (role === ROLE.DIRETOR_GERAL) {
             return await this.salesDb.getAllSalesDb()
@@ -44,12 +45,10 @@ export class SalesBusinnes {
 
         const { token, timestamp, amount, latLong } = input
         let roaming: boolean = false
-        const date = new Date()
-        console.log(date)
-
         const validToken = this.autheticator.getTokenData(token)
         const validUnit = await this.unitsDb.getUnitByLatLongDb(latLong)
-        const user = await this.userDb.getUserByIdDb(validToken.id)
+        const getUser = await this.userDb.getUserByIdDb(validToken.id)
+        const user = new User(getUser)
 
         if (!validToken) throw new TokenError();
 
@@ -57,7 +56,7 @@ export class SalesBusinnes {
 
         if (!validUnit) throw new CustomError(401, "Unidade invalida");
 
-        if (validUnit.id !== user.unitId) roaming = true
+        if (validUnit.id !== user.getUnitId()) roaming = true
 
         const id = this.genrateId.generateId()
 
@@ -68,18 +67,37 @@ export class SalesBusinnes {
             amount,
             roaming,
             latLong,
-            userUnitId: validUnit.id
+            userUnitId: validUnit.id,
+            directoryId: validUnit.directoryId
         })
         const response = await this.salesDb.createSaleDb(newSales)
         return response
     }
 
     updateSaleBus = async (input: UpdateSalesDTO) => {
+        const validToken = this.autheticator.getTokenData(input.token)
+        const validSales = this.salesDb.getSalesByIdDb(Number(input.id))
+        console.log(validSales)
+        if (!validToken) throw new TokenError()
+        if (!validSales) throw new IdError()
+
+        const response = await this.salesDb.updateSaleDb(input)
+        return response
 
     }
 
     deleteSaleBus = async (input: DeleteSalesDTO) => {
+        const { token, salesId } = input
+        const validToken = this.autheticator.getTokenData(token)
 
+        if (!validToken) throw new TokenError()
+        if (!salesId) throw new IdError()
+        if (validToken.role === ROLE.VENDEDOR) {
+            throw new CustomError(403, "Ususario não autorizado, somente gerente e diretor.")
+        }
+
+        const response = await this.salesDb.deleteSaleDb(input.salesId)
+        return response
     }
 
 }
