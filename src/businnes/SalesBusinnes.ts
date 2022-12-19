@@ -2,7 +2,7 @@ import { SalesDb } from "../dataBase/SalesData"
 import { UnitsDB } from "../dataBase/UnitsData"
 import { UserDb } from "../dataBase/UserData"
 import { CustomError, IdError, ParametersError, TokenError } from "../error/CustomError"
-import { CreateSalesDTO, DeleteSalesDTO, GetSalesDTO, UpdateSalesDTO } from "../interfaces/sales.Dto"
+import { CreateSalesDTO, DeleteSalesDTO, GetSalesDTO, UpdateSalesDTO } from "../interfaces/salesDto"
 import { Sales } from "../models/SalesModel"
 import { ROLE, User } from "../models/UserModel"
 import { Autheticator } from "../services/Authenticator"
@@ -48,6 +48,7 @@ export class SalesBusinnes {
         const validToken = this.autheticator.getTokenData(token)
         const validUnit = await this.unitsDb.getUnitByLatLongDb(latLong)
         const getUser = await this.userDb.getUserByIdDb(validToken.id)
+        
         const user = new User(getUser)
         
         if (!validToken) throw new TokenError();

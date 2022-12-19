@@ -16,7 +16,6 @@ export class UnitsDB extends DataBase {
     public static TABLE_UNITS = "MVP_UNITS"
 
     getUnitDb = async (input:GetUnitDto):Promise<OutputUnitsDB> => {
-        console.log("bateu aqui no unit ",input)
         const [response]:OutputUnitsDB[] = await this.getConnection()
         .from(UnitsDB.TABLE_UNITS)
         .select()

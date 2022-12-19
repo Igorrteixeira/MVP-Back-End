@@ -34,7 +34,7 @@ export interface OutputSalesDB {
     unitName:string,
     timestamp:string,
     amount:number,
-    roaming:String,
+    roaming:boolean,
     latLong:string,
     directoryName:string
     directoryId:number

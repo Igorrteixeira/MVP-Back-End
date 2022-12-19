@@ -1,4 +1,4 @@
-import { OutputSalesByIdDB, OutputSalesDB, UpdateSalesDTO } from "../interfaces/sales.Dto"
+import { OutputSalesByIdDB, OutputSalesDB, UpdateSalesDTO } from "../interfaces/salesDto"
 import { Sales } from "../models/SalesModel"
 import { DataBase } from "./DataBase"
 

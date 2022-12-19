@@ -1,8 +1,8 @@
-import {ROLE} from "../../src/models/UserModel"
+import { ROLE } from "../../src/models/UserModel";
 
 export interface AuthenticationData {
-  id:string,
-  role:string
+  id: string;
+  role: string;
 }
 
 export class AutheticatorMock {
@@ -16,7 +16,7 @@ export class AutheticatorMock {
     return token;
   };
 
-  public getTokenData = (token: string): AuthenticationData=> {
+  public getTokenData = (token: string): AuthenticationData => {
     switch (token) {
       case "token-mock-vendedor":
         const vendedorPayload: AuthenticationData = {

@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { SalesBusinnes } from "../businnes/SalesBusinnes";
-import { CreateSalesDTO, DeleteSalesDTO, GetSalesDTO, UpdateSalesDTO } from "../interfaces/sales.Dto";
+import { CreateSalesDTO, DeleteSalesDTO, GetSalesDTO, UpdateSalesDTO } from "../interfaces/salesDto";
 
 export class SalesControlles {
     constructor(private salesBus: SalesBusinnes) { }
