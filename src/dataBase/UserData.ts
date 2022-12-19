@@ -17,7 +17,7 @@ export class UserDb extends DataBase {
     getSallers = async (): Promise<OutputSallerDb[]> => {
         const result: OutputSallerDb[] = await this.getConnection()
             .from(UserDb.TABLE_USERS)
-            .select("id", "name", "email", "unitId", "directoryId")
+            .select("name","unitId", "directoryId")
         return result
     }
 

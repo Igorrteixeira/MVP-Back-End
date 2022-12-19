@@ -6,7 +6,7 @@ interface OutputDirectoryDB {
 }
 
 export class DirectoryDB extends DataBase {
-    // constructor(parameters) {}
+
     public static TABLE_DIRECTORY = "MVP_DIRECTORY"
     getDirectoryDb = async ():Promise<OutputDirectoryDB[]> => {
         const response:OutputDirectoryDB[] = await this.getConnection()

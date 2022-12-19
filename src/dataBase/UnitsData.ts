@@ -12,7 +12,7 @@ interface GetUnitDto {
 }
 
 export class UnitsDB extends DataBase {
-    // constructor(parameters) {}
+
     public static TABLE_UNITS = "MVP_UNITS"
 
     getUnitDb = async (input:GetUnitDto):Promise<OutputUnitsDB> => {

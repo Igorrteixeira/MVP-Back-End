@@ -20,6 +20,7 @@ const salesController = new SalesControlles(
 )
 
 salesRouter.get("", salesController.getSales)
+salesRouter.get("/details/:id", salesController.getSalesDetails)
 salesRouter.post("/create", salesController.createSale)
 salesRouter.put("/update", salesController.updateSale)
 salesRouter.delete("/delete/:id", salesController.deleteSale)
