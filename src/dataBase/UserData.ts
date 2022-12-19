@@ -6,7 +6,7 @@ export class UserDb extends DataBase {
     // constructor(parameters) { }
     public static TABLE_USERS = "MVP_USER";
 
-    getUserByIdDb = async (id: string): Promise<OutputSerDb> => {
+    getUserByIdDb = async (id: string): Promise<OutputSerDb |undefined> => {
         const [result]: OutputSerDb[] = await this.getConnection()
             .from(UserDb.TABLE_USERS)
             .select()
@@ -21,7 +21,7 @@ export class UserDb extends DataBase {
         return result
     }
 
-    getUserEmail = async (email: string): Promise<OutputSerDb[]> => {
+    getUserEmail = async (email: string): Promise<OutputSerDb[] | undefined> => {
         const result: OutputSerDb[] = await this.getConnection()
             .from(UserDb.TABLE_USERS)
             .select()

@@ -25,7 +25,6 @@ export class UserBusinnes {
         if (!name || !email || !password || !role) {
             throw new ParametersError()
         }
-        console.log(roleUpperCase)
         if (validEmail.length > 0) {
             throw new CustomError(401, "Email ja foi registrado");
         }

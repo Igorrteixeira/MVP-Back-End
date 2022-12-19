@@ -6,19 +6,19 @@ export class CustomError extends Error {
   }
 
   export class TokenError extends Error {
-    constructor(public code:number= 403, message:string = "Token inválido") {
+    constructor(public code:number = 403, message:string = "Token inválido") {
       super(message);
     }
   }
 
   export class ParametersError extends Error {
-    constructor(public code:number= 422, message:string = "Entre com todos parametros") {
+    constructor(public code:number = 422, message:string = "Entre com todos parametros") {
       super(message);
     }
   }
 
   export class IdError extends Error {
-    constructor(public code:number= 403, message:string = "Id inválido") {
+    constructor(public code:number = 403, message:string = "Id inválido") {
       super(message);
     }
   }
