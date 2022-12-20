@@ -128,9 +128,7 @@ describe("Testes Regras de negocio UserBusiness", () => {
 
   test("Deve retornar sucesso se carregar usuario", async () => {
     const user: OutputSallerDb = {
-      id: "id-mock",
       name: "igor",
-      email: "igor@gmail.com",
       unitId: 3526,
       directoryId: 0,
     };

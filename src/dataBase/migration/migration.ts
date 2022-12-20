@@ -24,8 +24,12 @@ class Migrations extends DataBase {
     }
     populateTable = async () => {
         await this.getConnection()
-        .from('MVP_SALES') // db
-        .insert(sales) //data
+        .from('MVP_DIRECTORY')
+        .insert(directory)
+
+        await this.getConnection()
+        .from('MVP_UNITS')
+        .insert(units) 
     }
  
 }

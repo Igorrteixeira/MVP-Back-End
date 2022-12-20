@@ -1,7 +1,6 @@
 import { SalesDb } from "../dataBase/SalesData";
 import { UnitsDB } from "../dataBase/UnitsData";
 import { UserDb } from "../dataBase/UserData";
-
 import { Sales } from "../models/SalesModel";
 import { ROLE, User } from "../models/UserModel";
 import { Autheticator } from "../services/Authenticator";
@@ -22,7 +21,7 @@ export class SalesBusinnes {
     ) { }
 
     getSalesBus = async (input: GetSalesDTO) => {
-        const { token, order, sellerName, unitName, directoryName } = input;
+        const { token, order, sellerName, unitName, directoryName, initialDate, finalDate } = input;
         const validToken = this.autheticator.getTokenData(token);
         const getUser = await this.userDb.getUserByIdDb(validToken.id);
         const user = new User(getUser);
@@ -36,19 +35,26 @@ export class SalesBusinnes {
             return sales;
         });
 
-        if (sellerName) newReponse = response.filter((item) => item.name === sellerName);
+        if (sellerName) newReponse = response.filter((sale) => sale.name === sellerName);
 
-        if (unitName) newReponse = response.filter((item) => item.unitName === unitName);
+        if (unitName) newReponse = response.filter((sale) => sale.unitName === unitName);
 
-        if (directoryName) newReponse = response.filter((item) => item.directoryName === unitName);
+        if (directoryName) newReponse = response.filter((sale) => sale.directoryName === unitName);
+
+        if (initialDate) {
+            newReponse = response.filter(sale => {
+                const convertDate = new CorrectDate().convertDate
+                return convertDate(sale.timestamp) >= convertDate(initialDate) && convertDate(sale.timestamp) <= convertDate(finalDate)
+            })
+        }
 
         switch (validToken.role) {
             case ROLE.VENDEDOR:
-                return newReponse.filter((item) => item.sellerId === user.getId());
+                return newReponse.filter((sale) => sale.sellerId === user.getId());
             case ROLE.GERENTE:
-                return newReponse.filter((item) => item.userUnitId === user.getUnitId());
+                return newReponse.filter((sale) => sale.userUnitId === user.getUnitId());
             case ROLE.DIRETOR:
-                return newReponse.filter((item) => item.directoryId === user.getDirectoryId());
+                return newReponse.filter((sale) => sale.directoryId === user.getDirectoryId());
             case ROLE.DIRETOR_GERAL:
                 return newReponse;
             default:

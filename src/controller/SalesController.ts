@@ -19,6 +19,8 @@ export class SalesControlles {
                 unitName: req.query.unitName as string,
                 directoryName: req.query.directoryName as string,
                 order: req.query.order as string,
+                initialDate: req.query.initialDate as string,
+                finalDate: req.query.finalDate as string
             };
             const response = await this.salesBus.getSalesBus(input);
             res.status(202).send({ response: response });

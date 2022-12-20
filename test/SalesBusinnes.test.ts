@@ -40,11 +40,14 @@ describe("Teste HashManager", () => {
     const sales: OutputSalesDB[] = [
       {
         id: "testeid",
+        name:"vendedor",
+        sellerId:"id-mock",
         unitName: "florianopolis",
         timestamp: "2022-12-18",
         amount: 200,
         roaming: false,
         latLong: "latlong",
+        userUnitId: 555,
         directoryName: "SUL",
         directoryId: 30400,
       },

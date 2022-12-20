@@ -1,5 +1,5 @@
 import { OutputSerDb, OutputSallerDb } from "../interfaces/userDto";
-import { User } from "../models/UserModel";
+import { ROLE, User } from "../models/UserModel";
 import { DataBase } from "./DataBase"
 
 export class UserDb extends DataBase {
@@ -17,7 +17,8 @@ export class UserDb extends DataBase {
     getSallers = async (): Promise<OutputSallerDb[]> => {
         const result: OutputSallerDb[] = await this.getConnection()
             .from(UserDb.TABLE_USERS)
-            .select("name","unitId", "directoryId")
+            .select("name","role","unitId", "directoryId")
+            .where("role",ROLE.VENDEDOR)
         return result
     }
 

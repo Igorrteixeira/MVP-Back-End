@@ -1,5 +1,4 @@
 import {
-  OutputSalesByIdDB,
   OutputSalesDB,
   UpdateSalesDTO,
 } from "../../src/interfaces/salesDto";
@@ -18,47 +17,36 @@ export class SalesDbMock extends DataBase {
     const response: OutputSalesDB[] = [
       {
         id: "testeid",
+        name:"vendedor",
+        sellerId:"id-mock",
         unitName: "florianopolis",
-        timestamp: "2022-12-18",
-        amount: 200,
-        roaming: false,
-        latLong: "latlong",
-        directoryName: "SUL",
-        directoryId: 30400,
-      },
-    ];
-    return response;
-  };
-
-  getSalesDb = async (
-    id: string | number,
-    order: string
-  ): Promise<OutputSalesDB[]> => {
-    const response: OutputSalesDB[] = [
-      {
-        id: "testeid",
-        unitName: "florianopolis",
-        timestamp: "2022-12-18",
-        amount: 200,
-        roaming: false,
-        latLong: "latlong",
-        directoryName: "SUL",
-        directoryId: 30400,
-      },
-    ];
-    return response;
-  };
-
-  getSalesByIdDb = async (id: string): Promise<OutputSalesByIdDB> => {
-    const [response]: OutputSalesByIdDB[] = [
-      {
-        id: "idteste",
-        sellerId: "idvendedor",
         timestamp: "2022-12-18",
         amount: 200,
         roaming: false,
         latLong: "latlong",
         userUnitId: 555,
+        directoryName: "SUL",
+        directoryId: 30400,
+      },
+    ];
+    return response;
+  };
+
+  getSaleDetailsDb = async (
+    order: string
+  ): Promise<OutputSalesDB[]> => {
+    const response: OutputSalesDB[] = [
+      {
+        id: "testeid",
+        name:"vendedor",
+        sellerId:"id-mock",
+        unitName: "florianopolis",
+        timestamp: "2022-12-18",
+        amount: 200,
+        roaming: false,
+        latLong: "latlong",
+        userUnitId: 555,
+        directoryName: "SUL",
         directoryId: 30400,
       },
     ];

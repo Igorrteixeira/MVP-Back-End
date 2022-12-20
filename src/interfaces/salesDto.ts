@@ -11,6 +11,8 @@ export interface GetSalesDTO {
   unitName?: string;
   directoryName?: string;
   order?: string;
+  initialDate?:string,
+  finalDate?:string
 }
 
 export interface UpdateSalesDTO {
@@ -39,7 +41,7 @@ export interface OutputSalesDB {
   name: string;
   sellerId: string;
   unitName: string;
-  timestamp: Date | string;
+  timestamp:string;
   amount: number;
   roaming: boolean;
   latLong: string;

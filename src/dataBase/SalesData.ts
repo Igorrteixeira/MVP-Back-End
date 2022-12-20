@@ -25,6 +25,7 @@ export class SalesDb extends DataBase {
                 "MVP_SALES.amount",
                 "MVP_SALES.roaming",
                 "MVP_SALES.latLong",
+                "MVP_SALES.userUnitId",
                 "MVP_SALES.directoryId",
                 "MVP_DIRECTORY.directoryName"
             )
