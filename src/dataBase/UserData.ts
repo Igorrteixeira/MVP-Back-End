@@ -6,7 +6,7 @@ export class UserDb extends DataBase {
     // constructor(parameters) { }
     public static TABLE_USERS = "MVP_USER";
 
-    getUserByIdDb = async (id: string): Promise<OutputSerDb |undefined> => {
+    getUserByIdDb = async (id: string): Promise<OutputSerDb | undefined> => {
         const [result]: OutputSerDb[] = await this.getConnection()
             .from(UserDb.TABLE_USERS)
             .select()
@@ -17,8 +17,8 @@ export class UserDb extends DataBase {
     getSallers = async (): Promise<OutputSallerDb[]> => {
         const result: OutputSallerDb[] = await this.getConnection()
             .from(UserDb.TABLE_USERS)
-            .select("name","role","unitId", "directoryId")
-            .where("role",ROLE.VENDEDOR)
+            .select("name", "role", "unitId", "directoryId")
+            .where("role", ROLE.VENDEDOR)
         return result
     }
 

@@ -4,10 +4,10 @@ import { salesRouter } from "./routes/salesRouter";
 import { unitRouter } from "./routes/unitRouter";
 import { userRouter } from "./routes/userRoutes";
 
-app.use("/user",userRouter)
+app.use("/user", userRouter)
 
-app.use("/sales",salesRouter)
+app.use("/sales", salesRouter)
 
-app.use("/units",unitRouter)
+app.use("/units", unitRouter)
 
-app.use("/directory",directoryRouter)
+app.use("/directory", directoryRouter)

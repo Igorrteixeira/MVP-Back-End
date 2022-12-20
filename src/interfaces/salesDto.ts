@@ -7,12 +7,12 @@ export interface CreateSalesDTO {
 
 export interface GetSalesDTO {
   token: string;
-  sellerName?: string;
+  sellerId?: string;
   unitName?: string;
   directoryName?: string;
   order?: string;
-  initialDate?:string,
-  finalDate?:string
+  initialDate?: string;
+  finalDate?: string;
 }
 
 export interface UpdateSalesDTO {
@@ -41,7 +41,7 @@ export interface OutputSalesDB {
   name: string;
   sellerId: string;
   unitName: string;
-  timestamp:string;
+  timestamp: string;
   amount: number;
   roaming: boolean;
   latLong: string;

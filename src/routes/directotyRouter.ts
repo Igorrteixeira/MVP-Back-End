@@ -8,4 +8,4 @@ const directoryController = new DirectoryController(
     new DirectoryDB()
 )
 
-directoryRouter.get("",directoryController.getDirectory)
+directoryRouter.get("", directoryController.getDirectory)

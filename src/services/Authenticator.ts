@@ -1,26 +1,26 @@
 import * as jwt from "jsonwebtoken"
 
 interface AuthenticationData {
-    id:string,
-    role:string
+    id: string,
+    role: string
 }
 
 export class Autheticator {
 
-        public generateToken =  (payload:AuthenticationData)=>{
-            const token = jwt.sign(payload,
-                process.env.JWT_KEY as string,
-                {expiresIn: process.env.EXPIRES_IN}
-                )
-                return token 
-        }
+    public generateToken = (payload: AuthenticationData) => {
+        const token = jwt.sign(payload,
+            process.env.JWT_KEY as string,
+            { expiresIn: process.env.EXPIRES_IN }
+        )
+        return token
+    }
 
-        public getTokenData= (token:string):AuthenticationData =>{
-                const tokenData = 
-                jwt.verify(
-                    token,
-                    process.env.JWT_KEY as string) as AuthenticationData
-                return tokenData 
-                   }
-            
-        }
+    public getTokenData = (token: string): AuthenticationData => {
+        const tokenData =
+            jwt.verify(
+                token,
+                process.env.JWT_KEY as string) as AuthenticationData
+        return tokenData
+    }
+
+}

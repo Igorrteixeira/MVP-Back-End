@@ -9,13 +9,14 @@ import {
 } from "../interfaces/salesDto";
 
 export class SalesControlles {
+
     constructor(private salesBus: SalesBusinnes) { }
 
     getSales = async (req: Request, res: Response) => {
         try {
             const input: GetSalesDTO = {
                 token: req.headers.authorization,
-                sellerName: req.query.sellerName as string,
+                sellerId: req.query.sellerId as string,
                 unitName: req.query.unitName as string,
                 directoryName: req.query.directoryName as string,
                 order: req.query.order as string,

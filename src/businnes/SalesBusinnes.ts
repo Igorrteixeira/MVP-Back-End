@@ -21,7 +21,7 @@ export class SalesBusinnes {
     ) { }
 
     getSalesBus = async (input: GetSalesDTO) => {
-        const { token, order, sellerName, unitName, directoryName, initialDate, finalDate } = input;
+        const { token, order, sellerId, unitName, directoryName, initialDate, finalDate } = input;
         const validToken = this.autheticator.getTokenData(token);
         const getUser = await this.userDb.getUserByIdDb(validToken.id);
         const user = new User(getUser);
@@ -35,11 +35,11 @@ export class SalesBusinnes {
             return sales;
         });
 
-        if (sellerName) newReponse = response.filter((sale) => sale.name === sellerName);
+        if (sellerId) newReponse = response.filter((sale) => sale.sellerId === sellerId);
 
         if (unitName) newReponse = response.filter((sale) => sale.unitName === unitName);
 
-        if (directoryName) newReponse = response.filter((sale) => sale.directoryName === unitName);
+        if (directoryName) newReponse = response.filter((sale) => sale.directoryName === directoryName.toUpperCase());
 
         if (initialDate) {
             newReponse = response.filter(sale => {
@@ -90,7 +90,6 @@ export class SalesBusinnes {
 
         const id = this.genrateId.generateId();
         const newDate = new CorrectDate().sendDateDB(String(timestamp));
-        console.log(newDate);
         const newSales = new Sales({
             id,
             sellerId: validToken.id,
@@ -111,6 +110,9 @@ export class SalesBusinnes {
 
         if (!validToken) throw new TokenError();
         if (validSales.length < 1) throw new IdError();
+        if (validToken.role !== ROLE.GERENTE) {
+            throw new CustomError(403, "Somente gerente esta autorizado para esta ação.");
+        }
 
         const response = await this.salesDb.updateSaleDb(input);
         return response;

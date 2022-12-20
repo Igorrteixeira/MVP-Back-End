@@ -37,7 +37,6 @@ export class SalesDb extends DataBase {
     }
 
     getSaleDetailsDb = async (id: string): Promise<OutputSalesDB[]> => {
-        console.log(id)
         const response: OutputSalesDB[] = await this.getConnection()
             .from(SalesDb.TABLE_SALES)
             .select(
@@ -60,7 +59,6 @@ export class SalesDb extends DataBase {
     }
 
     updateSaleDb = async (input: UpdateSalesDTO): Promise<string> => {
-        console.log(input.userUnitId, "no db")
         await this.getConnection()
             .from(SalesDb.TABLE_SALES)
             .update({
