@@ -1,6 +1,9 @@
 
+### Como rodar na sua maquina 
 
-
+* clone 
+* docker build -t mvp-node .
+* docker compose up
 
 
 ## Endpoints

@@ -24,7 +24,7 @@ describe("Teste HashManager", () => {
 
   test("Deve retonar sucesso se venda for realizada", async () => {
     const sales: CreateSalesDTO = {
-      token: "token-mock-vendedor",
+      token: "token-mock-gerente",
       timestamp: "25/12/2022 18:35:15",
       amount: 10,
       latLong: "latLong",
@@ -58,7 +58,7 @@ describe("Teste HashManager", () => {
 
   test("Deve retornar sucesso se Alterar venda com sucesso", async () => {
     const input: UpdateSalesDTO = {
-      token: "token-mock-vendedor",
+      token: "token-mock-gerente",
       id: "idteste",
       timestamp: "2022-12-10",
     };

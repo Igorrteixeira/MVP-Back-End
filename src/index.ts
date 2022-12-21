@@ -11,3 +11,7 @@ app.use("/sales", salesRouter)
 app.use("/units", unitRouter)
 
 app.use("/directory", directoryRouter)
+
+app.get("/",(req,res) =>{
+    return res.send("hello word 9")
+})

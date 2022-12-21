@@ -1,0 +1,578 @@
+[
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896439",
+      "name": "Afonso Afancar",
+      "email": "afonso.afancar@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896440",
+      "name": "Alceu Andreoli",
+      "email": "alceu.andreoli@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896441",
+      "name": "Amalia Zago",
+      "email": "amalia.zago@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896442",
+      "name": "Carlos Eduardo",
+      "email": "carlos.eduardo@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896443",
+      "name": "Luiz Felipe",
+      "email": "luiz.felipe@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896444",
+      "name": "Breno",
+      "email": "breno@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896445",
+      "name": "Emanuel",
+      "email": "emanuel@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896446",
+      "name": "Ryan",
+      "email": "ryan@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896447",
+      "name": "Vitor Hugo",
+      "email": "vitor.hugo@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896448",
+      "name": "Yuri",
+      "email": "yuri@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896449",
+      "name": "Benjamin",
+      "email": "benjamin@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896450",
+      "name": "Erick",
+      "email": "erick@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896451",
+      "name": "Enzo Gabriel",
+      "email": "enzo.gabriel@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896452",
+      "name": "Fernando",
+      "email": "fernando@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896453",
+      "name": "Joaquim",
+      "email": "joaquim@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896454",
+      "name": "André",
+      "email": "andré@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896455",
+      "name": "Raul",
+      "email": "raul@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896456",
+      "name": "Marcelo",
+      "email": "marcelo@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896457",
+      "name": "Julio César",
+      "email": "julio.césar@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896458",
+      "name": "Cauê",
+      "email": "cauê@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896459",
+      "name": "Benício",
+      "email": "benício@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896460",
+      "name": "Vitor Gabriel",
+      "email": "vitor.gabriel@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896461",
+      "name": "Augusto",
+      "email": "augusto@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896462",
+      "name": "Pedro Lucas",
+      "email": "pedro.lucas@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "name": "Luiz Gustavo",
+      "email": "luiz.gustavo@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896464",
+      "name": "Giovanni",
+      "email": "giovanni@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896465",
+      "name": "Renato",
+      "email": "renato@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896466",
+      "name": "Diego",
+      "email": "diego@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896467",
+      "name": "João Paulo",
+      "email": "joão.paulo@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896468",
+      "name": "Renan",
+      "email": "renan@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896469",
+      "name": "Luiz Fernando",
+      "email": "luiz.fernando@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896470",
+      "name": "Anthony",
+      "email": "anthony@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896471",
+      "name": "Lucas Gabriel",
+      "email": "lucas.gabriel@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896472",
+      "name": "Thales",
+      "email": "thales@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896473",
+      "name": "Luiz Miguel",
+      "email": "luiz.miguel@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896474",
+      "name": "Henry",
+      "email": "henry@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896475",
+      "name": "Marcos Vinicius",
+      "email": "marcos.vinicius@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896476",
+      "name": "Kevin",
+      "email": "kevin@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896477",
+      "name": "Levi",
+      "email": "levi@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896478",
+      "name": "Enrico",
+      "email": "enrico@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896479",
+      "name": "João Lucas",
+      "email": "joão.lucas@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896480",
+      "name": "Hugo",
+      "email": "hugo@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896481",
+      "name": "Luiz Guilherme",
+      "email": "luiz.guilherme@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896482",
+      "name": "Matheus Henrique",
+      "email": "matheus.henrique@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896483",
+      "name": "Miguel",
+      "email": "miguel@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896484",
+      "name": "Davi",
+      "email": "davi@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896485",
+      "name": "Gabriel",
+      "email": "gabriel@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896486",
+      "name": "Arthur",
+      "email": "arthur@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896487",
+      "name": "Lucas",
+      "email": "lucas@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896488",
+      "name": "Matheus",
+      "email": "matheus@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "VENDEDOR",
+      "unitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896502",
+      "name": "Edson A. do Nascimento",
+      "email": "pele@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "DIRETOR GERAL",
+      "unitId": null,
+      "directoryId": null
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896489",
+      "name": "Ronaldinho Gaucho",
+      "email": "ronaldinho.gaucho@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896490",
+      "name": "Roberto Firmino",
+      "email": "roberto.firmino@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896491",
+      "name": "Alex de Souza",
+      "email": "alex.de.souza@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896492",
+      "name": "Françoaldo Souza",
+      "email": "françoaldo.souza@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896493",
+      "name": "Romário Faria",
+      "email": "romário.faria@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896494",
+      "name": "Ricardo Goulart",
+      "email": "ricardo.goulart@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896495",
+      "name": "Dejan Petkovic",
+      "email": "dejan.petkovic@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896496",
+      "name": "Deyverson Acosta",
+      "email": "deyverson.acosta@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896497",
+      "name": "Harlei Silva",
+      "email": "harlei.silva@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896498",
+      "name": "Walter Henrique",
+      "email": "walter.henrique@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "GERENTE",
+      "unitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896499",
+      "name": "Vagner Mancini",
+      "email": "vagner.mancini@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "DIRETOR",
+      "unitId": null,
+      "directoryId": 30400
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896500",
+      "name": "Abel Ferreira",
+      "email": "abel.ferreira@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "DIRETOR",
+      "unitId": null,
+      "directoryId": 30401
+    },
+    {
+      "id": "46287b0b-fefc-4be5-a37b-19a6b9896501",
+      "name": "Rogerio Ceni",
+      "email": "rogerio.ceni@magazineaziul.com.br",
+      "password": "$2a$12$cBkYe.wwnPjXwdhDKm38C.HfIfzQiOl.XCmJg9k1uI/J4R7iyiuEu",
+      "role": "DIRETOR",
+      "unitId": null,
+      "directoryId": 30402
+    }
+  ]

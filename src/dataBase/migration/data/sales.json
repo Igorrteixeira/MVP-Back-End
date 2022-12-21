@@ -1,0 +1,1312 @@
+[
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a934",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896439",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 356,
+      "roaming": 1,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a935",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896439",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 356,
+      "roaming": 1,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a936",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896439",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 356,
+      "roaming": 1,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a937",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896439",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a938",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896440",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 356,
+      "roaming": 1,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a939",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896440",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a940",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896440",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a941",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896440",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a942",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896441",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a943",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896441",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 6952,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a944",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896441",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 6952,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a945",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896441",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a946",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896442",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a947",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896442",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a948",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896443",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a949",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896443",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a950",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896443",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a951",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896443",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 9665,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a952",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896443",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 9665,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a953",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896443",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a954",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896443",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20515,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a955",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896444",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a956",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896444",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a957",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896444",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a958",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896444",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a959",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896444",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a960",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896445",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 296.69,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a961",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896445",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 296.7,
+      "roaming": 1,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a962",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896446",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 296.71,
+      "roaming": 1,
+      "latLong": "-19.917854829716372, -43.94089385954766",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a963",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896446",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 296.72,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a964",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896446",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 296.73,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a965",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896446",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 296.74,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a966",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896447",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 296.75,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a967",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896447",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 296.76,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a968",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896447",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 296.77,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a969",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896447",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 296.78,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a970",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896448",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a971",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896448",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a972",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896448",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a973",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896448",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20517,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a974",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896449",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a975",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896449",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a976",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896449",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a977",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896449",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 356,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a978",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896450",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a979",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896450",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 6952,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a980",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896450",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 6952,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a981",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896451",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 6952,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a982",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896451",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a983",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896451",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a984",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896451",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a985",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896452",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a986",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896452",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 6952,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a987",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896452",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a988",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896452",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a989",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896452",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a990",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896453",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a991",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896453",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20519,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a992",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896454",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a993",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896455",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a994",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896456",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a995",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896457",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 9665,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a996",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896458",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 296.69,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20512,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a997",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896459",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 296.7,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a998",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896460",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 296.71,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a999",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896461",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 296.72,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1000",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896462",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 296.73,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1001",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 296.74,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1002",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 296.75,
+      "roaming": 1,
+      "latLong": "-20.462652006300377, -54.615658937666645",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1003",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 296.76,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1004",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 296.77,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1005",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 296.78,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1006",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1007",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1008",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896463",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20511,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1009",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896464",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1010",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896465",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1011",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896466",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 6563,
+      "roaming": 1,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1012",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896466",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 6563,
+      "roaming": 1,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1013",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896466",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1014",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896466",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 6563,
+      "roaming": 1,
+      "latLong": "-25.473704465731746, -49.24787198992874",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1015",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896466",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1016",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896467",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1017",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896468",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 6563,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1018",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896468",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 1717,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1019",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896468",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 1717,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1020",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896468",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 1717,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1021",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896468",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 1717,
+      "roaming": 0,
+      "latLong": "-16.673126240814387, -49.25248826354209",
+      "userUnitId": 20518,
+      "directoryId": 30402
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1022",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896469",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 1717,
+      "roaming": 0,
+      "latLong": "-30.048750057541955, -51.228587422990806",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1023",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896470",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 1717,
+      "roaming": 1,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1024",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896471",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 1233,
+      "roaming": 1,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1025",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896471",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 1233,
+      "roaming": 0,
+      "latLong": "-30.048750057541955, -51.228587422990806",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1026",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896471",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 1233,
+      "roaming": 1,
+      "latLong": "-15.601754458320842, -56.09832706558089",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1027",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896471",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 1233,
+      "roaming": 0,
+      "latLong": "-30.048750057541955, -51.228587422990806",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1028",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896471",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 1233,
+      "roaming": 0,
+      "latLong": "-30.048750057541955, -51.228587422990806",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1029",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896472",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 1233,
+      "roaming": 0,
+      "latLong": "-30.048750057541955, -51.228587422990806",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1030",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896473",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 1233,
+      "roaming": 0,
+      "latLong": "-30.048750057541955, -51.228587422990806",
+      "userUnitId": 20510,
+      "directoryId": 30400
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1031",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896474",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 1233,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1032",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896475",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 1233,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1033",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896475",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 1233,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1034",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896475",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 52,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1035",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896475",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 959585,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1036",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896475",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 959585,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1037",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896475",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 959585,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1038",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896476",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 959585,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1039",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896476",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 959585,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1040",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896476",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 959585,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1041",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896476",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 959585,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1042",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896477",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 4498,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1043",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896478",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 4498,
+      "roaming": 0,
+      "latLong": "-22.923447510604802, -43.23208495438858",
+      "userUnitId": 20514,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1044",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896479",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 4498,
+      "roaming": 0,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1045",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896480",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 4498,
+      "roaming": 0,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1046",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896481",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 4498,
+      "roaming": 1,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1047",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896481",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 4498,
+      "roaming": 1,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1048",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896481",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 4498,
+      "roaming": 1,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1049",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896481",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 4498,
+      "roaming": 0,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1050",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896481",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1051",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896481",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1052",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896482",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1053",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896483",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20513,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1054",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896484",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1055",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896485",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1056",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896486",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1057",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896486",
+      "timestamp": "2022-12-12 12:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1058",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896486",
+      "timestamp": "2022-12-14 10:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1059",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896487",
+      "timestamp": "2022-19-13 16:20",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1060",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896487",
+      "timestamp": "2022-19-16 10:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1061",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896487",
+      "timestamp": "2022-19-10 10:55",
+      "amount": 69852,
+      "roaming": 0,
+      "latLong": "-20.340992420772206, -40.38332271475097",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1062",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896488",
+      "timestamp": "2022-10-10 14:55",
+      "amount": 69852,
+      "roaming": 1,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1063",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896488",
+      "timestamp": "2022-12-10 12:55",
+      "amount": 69852,
+      "roaming": 1,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    },
+    {
+      "id": "de2176bf-de19-41e4-97ab-782f2c40a1064",
+      "sellerId": "46287b0b-fefc-4be5-a37b-19a6b9896488",
+      "timestamp": "2022-12-11 12:55",
+      "amount": 69852,
+      "roaming": 1,
+      "latLong": "-23.544259437612844, -46.64370714029131",
+      "userUnitId": 20516,
+      "directoryId": 30401
+    }
+  ]
