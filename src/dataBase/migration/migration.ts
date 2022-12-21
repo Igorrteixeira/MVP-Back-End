@@ -20,7 +20,7 @@ class Migrations extends DataBase {
             console.log("Populating tables with seed....")
             await this.populateTable()
             console.log("Tables populated successfully.")
-            
+
             console.log("Migrations completed.")
         } catch (error) {
             console.log("FAILED! Error in migrations...")
@@ -36,20 +36,23 @@ class Migrations extends DataBase {
 
     createTables = async () => {
         await this.getConnection().raw(`
-        CREATE TABLE IF NOT EXISTS ${DirectoryDB.TABLE_DIRECTORY} (
+        CREATE TABLE ${DirectoryDB.TABLE_DIRECTORY} (
             id INT PRIMARY KEY AUTO_INCREMENT,
             directoryName VARCHAR(255) NOT NULL
-        ); 
-        
-        CREATE TABLE IF NOT EXISTS ${UnitsDB.TABLE_UNITS} (
+        );
+        `)
+        await this.getConnection().raw(`
+        CREATE TABLE ${UnitsDB.TABLE_UNITS} (
             id INT PRIMARY KEY AUTO_INCREMENT,
             unitName VARCHAR(255) NOT NULL,
             latLong VARCHAR(255) NOT NULL,
             directoryId INT NOT NULL,
             FOREIGN KEY (directoryId) REFERENCES MVP_DIRECTORY(id)
         );
+        `)
 
-        CREATE TABLE IF NOT EXISTS ${UserDb.TABLE_USERS} (
+        await this.getConnection().raw(`
+        CREATE TABLE ${UserDb.TABLE_USERS} (
             id VARCHAR(255) PRIMARY KEY,
             name VARCHAR(255) NOT NULL,
             email VARCHAR(255) UNIQUE NOT NULL,
@@ -60,8 +63,9 @@ class Migrations extends DataBase {
             FOREIGN KEY (unitId) REFERENCES MVP_UNITS(id),
             FOREIGN KEY (directoryId) REFERENCES MVP_DIRECTORY(id)
         );
-
-        CREATE TABLE IF NOT EXISTS ${SalesDb.TABLE_SALES} (
+        `)
+        await this.getConnection().raw(`
+        CREATE TABLE ${SalesDb.TABLE_SALES} (
             id VARCHAR(255)PRIMARY KEY,
             sellerId VARCHAR(255) NOT NULL,
             timestamp TIMESTAMP,
@@ -73,7 +77,7 @@ class Migrations extends DataBase {
             FOREIGN KEY (sellerId) REFERENCES MVP_USER(id),
             FOREIGN KEY (userUnitId) REFERENCES MVP_UNITS(id),
             FOREIGN KEY (directoryId) REFERENCES MVP_DIRECTORY(id)
-        );
+        ); 
         `)
     }
 
