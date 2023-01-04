@@ -13,6 +13,7 @@
 * esse comando ira criar e popular tabelas
 
 * comando para rodar testes = docker-compose run --rm app npm test
+* As variáveis de ambiente são para fins de desenvolvimento e testes por isso não estão no gitignore.
 
 ---------------------------------------------
 O projeto segue essa estrutura:
