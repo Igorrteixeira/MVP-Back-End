@@ -5,21 +5,14 @@
 ### Como rodar na sua maquina 
 
 * git clone https://github.com/Igorrteixeira/MVP-Back-End
+* cd MVP-Back-End
 * docker compose up
-* configure .env ex:
-  * DB_HOST = localhost
-  * DB_USER = root
-  * DB_PASSWORD = root
-  * DB_SCHEMA = mvp-data-base
-  * JWT_KEY = senha123
-  * EXPIRES_IN = 24h
-  * BCRYPT_COST = 12
-  * PORT = 3003
 
-  * comando para rodar testes = docker-compose run --rm app npm test
+* apos inicialização entre com o comando em um novo terminal :
+* docker-compose run --rm app npm run migration 
+* esse comando ira criar e popular tabelas
 
-* Apos rodar na sua maquina e possivel criar e popular tabelas usando o script migration
-* o migration vai criar as tabelas e popular com os dados que foram convertidos para json.
+* comando para rodar testes = docker-compose run --rm app npm test
 
 ---------------------------------------------
 O projeto segue essa estrutura:
